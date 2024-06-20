@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.002074] (tb3_teleop) JobQueued: {'identifier': 'tb3_teleop', 'dependencies': OrderedDict()}
+[0.002836] (tb3_teleop) JobStarted: {'identifier': 'tb3_teleop'}
+[0.098618] (-) TimerEvent: {}
+[0.199407] (-) TimerEvent: {}
+[0.300491] (-) TimerEvent: {}
+[0.401938] (-) TimerEvent: {}
+[0.502723] (-) TimerEvent: {}
+[0.603547] (-) TimerEvent: {}
+[0.704220] (-) TimerEvent: {}
+[0.805060] (-) TimerEvent: {}
+[0.905905] (-) TimerEvent: {}
+[1.006728] (-) TimerEvent: {}
+[1.107545] (-) TimerEvent: {}
+[1.208290] (-) TimerEvent: {}
+[1.309177] (-) TimerEvent: {}
+[1.409988] (-) TimerEvent: {}
+[1.511065] (-) TimerEvent: {}
+[1.612935] (-) TimerEvent: {}
+[1.714054] (-) TimerEvent: {}
+[1.815007] (-) TimerEvent: {}
+[1.916155] (-) TimerEvent: {}
+[2.017118] (-) TimerEvent: {}
+[2.118098] (-) TimerEvent: {}
+[2.219139] (-) TimerEvent: {}
+[2.320027] (-) TimerEvent: {}
+[2.420834] (-) TimerEvent: {}
+[2.521644] (-) TimerEvent: {}
+[2.622479] (-) TimerEvent: {}
+[2.723300] (-) TimerEvent: {}
+[2.824158] (-) TimerEvent: {}
+[2.924942] (-) TimerEvent: {}
+[3.025791] (-) TimerEvent: {}
+[3.126592] (-) TimerEvent: {}
+[3.227664] (-) TimerEvent: {}
+[3.328569] (-) TimerEvent: {}
+[3.429421] (-) TimerEvent: {}
+[3.530261] (-) TimerEvent: {}
+[3.631513] (-) TimerEvent: {}
+[3.666835] (tb3_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tb3_teleop', 'build', '--build-base', '/home/bot12/robot_ws/build/tb3_teleop/build', 'install', '--record', '/home/bot12/robot_ws/build/tb3_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bot12/robot_ws/src/tb3_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,3172,0', 'LANGUAGE': 'en_ZA:en', 'USER': 'bot12', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bot12', 'OLDPWD': '/home/bot12', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1025', 'SYSTEMD_EXEC_PID': '1560', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2926', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bot12/robot_ws/install:/home/bot12/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bot12', 'JOURNAL_STREAM': '8:24109', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bot12', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bot12:@/tmp/.ICE-unix/1203,unix/bot12:/tmp/.ICE-unix/1203', 'INVOCATION_ID': 'ba9060eee97a45959e3955f4ca324063', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.N1NZP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/bot12/robot_ws/install/tb3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e02bcbcc-42f6-41d5-bc14-f1686e08d64f', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bot12/robot_ws/build/tb3_teleop', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/bot12/robot_ws/build/tb3_teleop/prefix_override:/home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%1', 'CMAKE_PREFIX_PATH': '/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[3.731664] (-) TimerEvent: {}
+[3.832358] (-) TimerEvent: {}
+[3.933073] (-) TimerEvent: {}
+[4.033728] (-) TimerEvent: {}
+[4.134416] (-) TimerEvent: {}
+[4.235190] (-) TimerEvent: {}
+[4.335893] (-) TimerEvent: {}
+[4.436665] (-) TimerEvent: {}
+[4.537291] (-) TimerEvent: {}
+[4.637932] (-) TimerEvent: {}
+[4.738635] (-) TimerEvent: {}
+[4.839392] (-) TimerEvent: {}
+[4.940172] (-) TimerEvent: {}
+[5.041140] (-) TimerEvent: {}
+[5.060341] (tb3_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[5.063160] (tb3_teleop) StdoutLine: {'line': b'writing ../../build/tb3_teleop/tb3_teleop.egg-info/PKG-INFO\n'}
+[5.064374] (tb3_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/tb3_teleop/tb3_teleop.egg-info/dependency_links.txt\n'}
+[5.065543] (tb3_teleop) StdoutLine: {'line': b'writing entry points to ../../build/tb3_teleop/tb3_teleop.egg-info/entry_points.txt\n'}
+[5.066693] (tb3_teleop) StdoutLine: {'line': b'writing requirements to ../../build/tb3_teleop/tb3_teleop.egg-info/requires.txt\n'}
+[5.067669] (tb3_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/tb3_teleop/tb3_teleop.egg-info/top_level.txt\n'}
+[5.076923] (tb3_teleop) StdoutLine: {'line': b"reading manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'\n"}
+[5.081099] (tb3_teleop) StdoutLine: {'line': b"writing manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'\n"}
+[5.081866] (tb3_teleop) StdoutLine: {'line': b'running build\n'}
+[5.082492] (tb3_teleop) StdoutLine: {'line': b'running build_py\n'}
+[5.083186] (tb3_teleop) StdoutLine: {'line': b'copying tb3_teleop/teleop.py -> /home/bot12/robot_ws/build/tb3_teleop/build/lib/tb3_teleop\n'}
+[5.084863] (tb3_teleop) StdoutLine: {'line': b'running install\n'}
+[5.086346] (tb3_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[5.093545] (tb3_teleop) StdoutLine: {'line': b'copying /home/bot12/robot_ws/build/tb3_teleop/build/lib/tb3_teleop/teleop.py -> /home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop\n'}
+[5.097460] (tb3_teleop) StdoutLine: {'line': b'byte-compiling /home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop/teleop.py to teleop.cpython-310.pyc\n'}
+[5.105480] (tb3_teleop) StdoutLine: {'line': b'running install_data\n'}
+[5.106355] (tb3_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.112270] (tb3_teleop) StdoutLine: {'line': b"removing '/home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.114149] (tb3_teleop) StdoutLine: {'line': b'Copying ../../build/tb3_teleop/tb3_teleop.egg-info to /home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop-0.0.0-py3.10.egg-info\n'}
+[5.122279] (tb3_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[5.141533] (-) TimerEvent: {}
+[5.243407] (tb3_teleop) StdoutLine: {'line': b'Installing teleop script to /home/bot12/robot_ws/install/tb3_teleop/lib/tb3_teleop\n'}
+[5.243984] (-) TimerEvent: {}
+[5.245470] (tb3_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/bot12/robot_ws/build/tb3_teleop/install.log'\n"}
+[5.344262] (-) TimerEvent: {}
+[5.423345] (tb3_teleop) CommandEnded: {'returncode': 0}
+[5.444788] (-) TimerEvent: {}
+[5.496876] (tb3_teleop) JobEnded: {'identifier': 'tb3_teleop', 'rc': 0}
+[5.503509] (-) EventReactorShutdown: {}
