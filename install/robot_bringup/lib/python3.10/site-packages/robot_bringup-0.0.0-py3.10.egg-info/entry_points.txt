@@ -1,0 +1,3 @@
+[console_scripts]
+robmove = robot_bringup.world_mv:main
+

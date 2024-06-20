@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<robot>
+  <link name="camera_link">
+    <visual>
+    <origin xyz="-0.075 -0.005 -0.04" rpy="${M_PI*0.5} 0.0 ${M_PI*0.5}"/>
+      <geometry>
+        <mesh filename="file://$(find tb3_description)/meshes/webcam.stl" scale="0.0001 0.0001 0.0001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.075 -0.005 -0.04" rpy="${M_PI*0.5} 0.0 ${M_PI*0.5}"/>
+        <geometry>
+          <mesh filename="file://$(find tb3_description)/meshes/webcam.stl" scale="0.0001 0.0001 0.0001"/>
+        </geometry>
+    </collision>    
+    <inertial>
+      <origin xyz="0 0 0" />
+      <mass value="0.001" />
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+    </inertial>
+  </link>
+
+  <joint name="camera_base_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <origin xyz="0.065 0.0 0.095" rpy="0 0 0"/>
+  </joint>
+
+  <link name="camera_lens_link"/>
+
+  <joint name="camera_lens_joint" type="fixed">
+    <parent link="camera_link"/>
+    <child link="camera_lens_link"/>
+    <origin xyz="0.025 -0.015 0.02" rpy="0 0 0"/>
+  </joint>
+</robot>
