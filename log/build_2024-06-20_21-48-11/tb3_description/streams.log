@@ -1,0 +1,21 @@
+[4.513s] Invoking command in '/home/papasav/robot_ws-main/src/tb3_description': PYTHONPATH=/home/papasav/robot_ws-main/build/tb3_description/prefix_override:/home/papasav/robot_ws-main/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_description build --build-base /home/papasav/robot_ws-main/build/tb3_description/build install --record /home/papasav/robot_ws-main/build/tb3_description/install.log --single-version-externally-managed install_data
+[6.095s] running egg_info
+[6.103s] writing ../../build/tb3_description/tb3_description.egg-info/PKG-INFO
+[6.111s] writing dependency_links to ../../build/tb3_description/tb3_description.egg-info/dependency_links.txt
+[6.112s] writing entry points to ../../build/tb3_description/tb3_description.egg-info/entry_points.txt
+[6.113s] writing requirements to ../../build/tb3_description/tb3_description.egg-info/requires.txt
+[6.114s] writing top-level names to ../../build/tb3_description/tb3_description.egg-info/top_level.txt
+[6.123s] reading manifest file '../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[6.138s] writing manifest file '../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[6.140s] running build
+[6.140s] running build_py
+[6.141s] running install
+[6.151s] running install_lib
+[6.154s] running install_data
+[6.156s] copying urdf/turtlebot3_burger_base.urdf.xacro -> /home/papasav/robot_ws-main/install/tb3_description/share/tb3_description/urdf
+[6.157s] running install_egg_info
+[6.171s] removing '/home/papasav/robot_ws-main/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info' (and everything under it)
+[6.172s] Copying ../../build/tb3_description/tb3_description.egg-info to /home/papasav/robot_ws-main/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info
+[6.176s] running install_scripts
+[6.339s] writing list of installed files to '/home/papasav/robot_ws-main/build/tb3_description/install.log'
+[7.310s] Invoked command in '/home/papasav/robot_ws-main/src/tb3_description' returned '0': PYTHONPATH=/home/papasav/robot_ws-main/build/tb3_description/prefix_override:/home/papasav/robot_ws-main/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_description build --build-base /home/papasav/robot_ws-main/build/tb3_description/build install --record /home/papasav/robot_ws-main/build/tb3_description/install.log --single-version-externally-managed install_data
