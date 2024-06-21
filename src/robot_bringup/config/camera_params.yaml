@@ -8,4 +8,4 @@
       image_width: 640
       image_height: 480
       camera_name: "webcam"
-      camera_info_url: "package://tb3_hardware/config/webcam.yaml"
+      camera_info_url: "package://robot_bringup/config/webcam.yaml"

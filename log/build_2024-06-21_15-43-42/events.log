@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.001839] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.002576] (tb3_description) JobQueued: {'identifier': 'tb3_description', 'dependencies': OrderedDict()}
+[0.003090] (tb3_hardware) JobQueued: {'identifier': 'tb3_hardware', 'dependencies': OrderedDict()}
+[0.003285] (tb3_teleop) JobQueued: {'identifier': 'tb3_teleop', 'dependencies': OrderedDict()}
+[0.003563] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.051244] (tb3_description) JobStarted: {'identifier': 'tb3_description'}
+[0.092347] (tb3_hardware) JobStarted: {'identifier': 'tb3_hardware'}
+[0.099107] (-) TimerEvent: {}
+[0.139766] (tb3_teleop) JobStarted: {'identifier': 'tb3_teleop'}
+[0.199341] (-) TimerEvent: {}
+[0.300560] (-) TimerEvent: {}
+[0.401351] (-) TimerEvent: {}
+[0.502113] (-) TimerEvent: {}
+[0.602978] (-) TimerEvent: {}
+[0.703686] (-) TimerEvent: {}
+[0.804359] (-) TimerEvent: {}
+[0.905048] (-) TimerEvent: {}
+[1.005775] (-) TimerEvent: {}
+[1.106594] (-) TimerEvent: {}
+[1.207316] (-) TimerEvent: {}
+[1.308147] (-) TimerEvent: {}
+[1.408954] (-) TimerEvent: {}
+[1.509873] (-) TimerEvent: {}
+[1.610850] (-) TimerEvent: {}
+[1.711898] (-) TimerEvent: {}
+[1.812919] (-) TimerEvent: {}
+[1.914205] (-) TimerEvent: {}
+[2.018180] (-) TimerEvent: {}
+[2.119387] (-) TimerEvent: {}
+[2.220624] (-) TimerEvent: {}
+[2.322046] (-) TimerEvent: {}
+[2.423111] (-) TimerEvent: {}
+[2.524129] (-) TimerEvent: {}
+[2.625382] (-) TimerEvent: {}
+[2.726691] (-) TimerEvent: {}
+[2.827775] (-) TimerEvent: {}
+[2.929029] (-) TimerEvent: {}
+[3.030445] (-) TimerEvent: {}
+[3.133607] (-) TimerEvent: {}
+[3.234747] (-) TimerEvent: {}
+[3.335795] (-) TimerEvent: {}
+[3.437016] (-) TimerEvent: {}
+[3.538287] (-) TimerEvent: {}
+[3.639604] (-) TimerEvent: {}
+[3.740858] (-) TimerEvent: {}
+[3.841966] (-) TimerEvent: {}
+[3.943607] (-) TimerEvent: {}
+[4.049473] (-) TimerEvent: {}
+[4.152819] (-) TimerEvent: {}
+[4.261299] (-) TimerEvent: {}
+[4.362162] (-) TimerEvent: {}
+[4.463101] (-) TimerEvent: {}
+[4.563815] (-) TimerEvent: {}
+[4.664592] (-) TimerEvent: {}
+[4.765293] (-) TimerEvent: {}
+[4.865981] (-) TimerEvent: {}
+[4.966823] (-) TimerEvent: {}
+[5.067557] (-) TimerEvent: {}
+[5.168237] (-) TimerEvent: {}
+[5.268934] (-) TimerEvent: {}
+[5.369683] (-) TimerEvent: {}
+[5.470409] (-) TimerEvent: {}
+[5.571294] (-) TimerEvent: {}
+[5.672604] (-) TimerEvent: {}
+[5.773749] (-) TimerEvent: {}
+[5.874455] (-) TimerEvent: {}
+[5.975219] (-) TimerEvent: {}
+[6.075924] (-) TimerEvent: {}
+[6.176863] (-) TimerEvent: {}
+[6.277853] (-) TimerEvent: {}
+[6.378667] (-) TimerEvent: {}
+[6.479495] (-) TimerEvent: {}
+[6.580333] (-) TimerEvent: {}
+[6.681211] (-) TimerEvent: {}
+[6.782248] (-) TimerEvent: {}
+[6.883148] (-) TimerEvent: {}
+[6.983870] (-) TimerEvent: {}
+[7.084698] (-) TimerEvent: {}
+[7.185438] (-) TimerEvent: {}
+[7.286437] (-) TimerEvent: {}
+[7.390499] (-) TimerEvent: {}
+[7.494347] (-) TimerEvent: {}
+[7.595255] (-) TimerEvent: {}
+[7.697599] (-) TimerEvent: {}
+[7.799729] (-) TimerEvent: {}
+[7.900631] (-) TimerEvent: {}
+[8.001534] (-) TimerEvent: {}
+[8.102419] (-) TimerEvent: {}
+[8.203378] (-) TimerEvent: {}
+[8.304253] (-) TimerEvent: {}
+[8.405304] (-) TimerEvent: {}
+[8.506207] (-) TimerEvent: {}
+[8.607159] (-) TimerEvent: {}
+[8.708019] (-) TimerEvent: {}
+[8.808920] (-) TimerEvent: {}
+[8.911001] (-) TimerEvent: {}
+[9.013502] (-) TimerEvent: {}
+[9.115598] (-) TimerEvent: {}
+[9.217491] (-) TimerEvent: {}
+[9.319696] (-) TimerEvent: {}
+[9.421214] (-) TimerEvent: {}
+[9.522160] (-) TimerEvent: {}
+[9.623943] (-) TimerEvent: {}
+[9.730858] (-) TimerEvent: {}
+[9.832089] (-) TimerEvent: {}
+[9.933272] (-) TimerEvent: {}
+[10.035738] (-) TimerEvent: {}
+[10.138863] (-) TimerEvent: {}
+[10.244508] (-) TimerEvent: {}
+[10.345656] (-) TimerEvent: {}
+[10.447019] (-) TimerEvent: {}
+[10.548085] (-) TimerEvent: {}
+[10.649381] (-) TimerEvent: {}
+[10.751281] (-) TimerEvent: {}
+[10.852900] (-) TimerEvent: {}
+[10.954627] (-) TimerEvent: {}
+[11.056219] (-) TimerEvent: {}
+[11.157912] (-) TimerEvent: {}
+[11.258840] (-) TimerEvent: {}
+[11.366562] (-) TimerEvent: {}
+[11.470761] (-) TimerEvent: {}
+[11.590686] (-) TimerEvent: {}
+[11.702733] (-) TimerEvent: {}
+[11.809126] (-) TimerEvent: {}
+[11.911539] (-) TimerEvent: {}
+[12.013600] (-) TimerEvent: {}
+[12.125656] (-) TimerEvent: {}
+[12.218911] (tb3_hardware) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tb3_hardware', 'build', '--build-base', '/home/bot12/robot_ws/build/tb3_hardware/build', 'install', '--record', '/home/bot12/robot_ws/build/tb3_hardware/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bot12/robot_ws/src/tb3_hardware', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,16249,0', 'LANGUAGE': 'en_ZA:en', 'USER': 'bot12', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bot12', 'OLDPWD': '/home/bot12', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1024', 'SYSTEMD_EXEC_PID': '1565', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2683', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bot12/robot_ws/install:/home/bot12/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bot12', 'JOURNAL_STREAM': '8:22485', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bot12', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bot12:@/tmp/.ICE-unix/1188,unix/bot12:/tmp/.ICE-unix/1188', 'INVOCATION_ID': '64245f5588f84e6c9bde507cb194a91d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AJ8NP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/bot12/robot_ws/install/tb3_hardware:/home/bot12/robot_ws/install/tb3_teleop:/home/bot12/robot_ws/install/tb3_description:/home/bot12/robot_ws/install/robot_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9e744fd1-7346-465a-944f-858d9fa77816', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bot12/robot_ws/build/tb3_hardware', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/bot12/robot_ws/build/tb3_hardware/prefix_override:/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[12.228798] (-) TimerEvent: {}
+[12.272429] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/bot12/robot_ws/build/robot_bringup/build', 'install', '--record', '/home/bot12/robot_ws/build/robot_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bot12/robot_ws/src/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,16249,0', 'LANGUAGE': 'en_ZA:en', 'USER': 'bot12', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bot12', 'OLDPWD': '/home/bot12', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1024', 'SYSTEMD_EXEC_PID': '1565', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2683', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bot12/robot_ws/install:/home/bot12/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bot12', 'JOURNAL_STREAM': '8:22485', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bot12', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bot12:@/tmp/.ICE-unix/1188,unix/bot12:/tmp/.ICE-unix/1188', 'INVOCATION_ID': '64245f5588f84e6c9bde507cb194a91d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AJ8NP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/bot12/robot_ws/install/tb3_hardware:/home/bot12/robot_ws/install/tb3_teleop:/home/bot12/robot_ws/install/tb3_description:/home/bot12/robot_ws/install/robot_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9e744fd1-7346-465a-944f-858d9fa77816', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bot12/robot_ws/build/robot_bringup', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/bot12/robot_ws/build/robot_bringup/prefix_override:/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[12.329713] (-) TimerEvent: {}
+[12.433039] (-) TimerEvent: {}
+[12.498920] (tb3_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tb3_description', 'build', '--build-base', '/home/bot12/robot_ws/build/tb3_description/build', 'install', '--record', '/home/bot12/robot_ws/build/tb3_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bot12/robot_ws/src/tb3_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,16249,0', 'LANGUAGE': 'en_ZA:en', 'USER': 'bot12', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bot12', 'OLDPWD': '/home/bot12', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1024', 'SYSTEMD_EXEC_PID': '1565', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2683', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bot12/robot_ws/install:/home/bot12/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bot12', 'JOURNAL_STREAM': '8:22485', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bot12', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bot12:@/tmp/.ICE-unix/1188,unix/bot12:/tmp/.ICE-unix/1188', 'INVOCATION_ID': '64245f5588f84e6c9bde507cb194a91d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AJ8NP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/bot12/robot_ws/install/tb3_hardware:/home/bot12/robot_ws/install/tb3_teleop:/home/bot12/robot_ws/install/tb3_description:/home/bot12/robot_ws/install/robot_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9e744fd1-7346-465a-944f-858d9fa77816', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bot12/robot_ws/build/tb3_description', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/bot12/robot_ws/build/tb3_description/prefix_override:/home/bot12/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[12.547700] (-) TimerEvent: {}
+[12.650358] (-) TimerEvent: {}
+[12.753109] (-) TimerEvent: {}
+[12.856100] (-) TimerEvent: {}
+[12.961435] (-) TimerEvent: {}
+[13.039726] (tb3_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tb3_teleop', 'build', '--build-base', '/home/bot12/robot_ws/build/tb3_teleop/build', 'install', '--record', '/home/bot12/robot_ws/build/tb3_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bot12/robot_ws/src/tb3_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,16249,0', 'LANGUAGE': 'en_ZA:en', 'USER': 'bot12', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bot12', 'OLDPWD': '/home/bot12', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1024', 'SYSTEMD_EXEC_PID': '1565', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2683', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bot12/robot_ws/install:/home/bot12/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bot12', 'JOURNAL_STREAM': '8:22485', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bot12', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bot12:@/tmp/.ICE-unix/1188,unix/bot12:/tmp/.ICE-unix/1188', 'INVOCATION_ID': '64245f5588f84e6c9bde507cb194a91d', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AJ8NP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/bot12/robot_ws/install/tb3_hardware:/home/bot12/robot_ws/install/tb3_teleop:/home/bot12/robot_ws/install/tb3_description:/home/bot12/robot_ws/install/robot_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9e744fd1-7346-465a-944f-858d9fa77816', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bot12/robot_ws/build/tb3_teleop', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/bot12/robot_ws/build/tb3_teleop/prefix_override:/home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/bot12/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_teleop:/home/bot12/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/bot12/turtlebot3_ws/build/turtlebot3_example:/home/bot12/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0', 'CMAKE_PREFIX_PATH': '/home/bot12/turtlebot3_ws/install/turtlebot3:/home/bot12/turtlebot3_ws/install/turtlebot3_bringup:/home/bot12/turtlebot3_ws/install/turtlebot3_node:/home/bot12/turtlebot3_ws/install/turtlebot3_description:/home/bot12/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[13.071044] (-) TimerEvent: {}
+[13.178222] (-) TimerEvent: {}
+[13.283583] (-) TimerEvent: {}
+[13.397307] (-) TimerEvent: {}
+[13.500747] (-) TimerEvent: {}
+[13.603273] (-) TimerEvent: {}
+[13.704180] (-) TimerEvent: {}
+[13.807579] (-) TimerEvent: {}
+[13.909923] (-) TimerEvent: {}
+[14.011615] (-) TimerEvent: {}
+[14.113242] (-) TimerEvent: {}
+[14.216385] (-) TimerEvent: {}
+[14.317666] (-) TimerEvent: {}
+[14.418611] (-) TimerEvent: {}
+[14.519524] (-) TimerEvent: {}
+[14.621531] (-) TimerEvent: {}
+[14.723306] (-) TimerEvent: {}
+[14.825303] (-) TimerEvent: {}
+[14.927575] (-) TimerEvent: {}
+[15.030342] (-) TimerEvent: {}
+[15.070062] (tb3_hardware) StdoutLine: {'line': b'running egg_info\n'}
+[15.071333] (tb3_hardware) StdoutLine: {'line': b'writing ../../build/tb3_hardware/tb3_hardware.egg-info/PKG-INFO\n'}
+[15.073690] (tb3_hardware) StdoutLine: {'line': b'writing dependency_links to ../../build/tb3_hardware/tb3_hardware.egg-info/dependency_links.txt\n'}
+[15.076562] (tb3_hardware) StdoutLine: {'line': b'writing entry points to ../../build/tb3_hardware/tb3_hardware.egg-info/entry_points.txt\n'}
+[15.078910] (tb3_hardware) StdoutLine: {'line': b'writing requirements to ../../build/tb3_hardware/tb3_hardware.egg-info/requires.txt\n'}
+[15.081152] (tb3_hardware) StdoutLine: {'line': b'writing top-level names to ../../build/tb3_hardware/tb3_hardware.egg-info/top_level.txt\n'}
+[15.097102] (tb3_hardware) StdoutLine: {'line': b"reading manifest file '../../build/tb3_hardware/tb3_hardware.egg-info/SOURCES.txt'\n"}
+[15.106030] (tb3_hardware) StdoutLine: {'line': b"writing manifest file '../../build/tb3_hardware/tb3_hardware.egg-info/SOURCES.txt'\n"}
+[15.108400] (tb3_hardware) StdoutLine: {'line': b'running build\n'}
+[15.109949] (tb3_hardware) StdoutLine: {'line': b'running build_py\n'}
+[15.112732] (tb3_hardware) StdoutLine: {'line': b'running install\n'}
+[15.115551] (tb3_hardware) StdoutLine: {'line': b'running install_lib\n'}
+[15.125946] (tb3_hardware) StdoutLine: {'line': b'running install_data\n'}
+[15.128673] (tb3_hardware) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.130497] (-) TimerEvent: {}
+[15.140834] (tb3_hardware) StdoutLine: {'line': b"removing '/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages/tb3_hardware-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.146811] (tb3_hardware) StdoutLine: {'line': b'Copying ../../build/tb3_hardware/tb3_hardware.egg-info to /home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages/tb3_hardware-0.0.0-py3.10.egg-info\n'}
+[15.158663] (tb3_hardware) StdoutLine: {'line': b'running install_scripts\n'}
+[15.230787] (-) TimerEvent: {}
+[15.312321] (tb3_hardware) StdoutLine: {'line': b'Installing config script to /home/bot12/robot_ws/install/tb3_hardware/lib/tb3_hardware\n'}
+[15.317625] (tb3_hardware) StdoutLine: {'line': b"writing list of installed files to '/home/bot12/robot_ws/build/tb3_hardware/install.log'\n"}
+[15.331212] (-) TimerEvent: {}
+[15.332810] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[15.362503] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[15.367278] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[15.377611] (robot_bringup) StdoutLine: {'line': b'writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt\n'}
+[15.381582] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[15.383269] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[15.429713] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[15.431655] (-) TimerEvent: {}
+[15.453182] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[15.454948] (robot_bringup) StdoutLine: {'line': b'running build\n'}
+[15.456060] (robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[15.456996] (robot_bringup) StdoutLine: {'line': b'running install\n'}
+[15.458799] (robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[15.481989] (robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[15.483319] (robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.501625] (robot_bringup) StdoutLine: {'line': b"removing '/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.505752] (robot_bringup) StdoutLine: {'line': b'Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info\n'}
+[15.525505] (robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[15.532039] (-) TimerEvent: {}
+[15.602821] (tb3_description) StdoutLine: {'line': b'running egg_info\n'}
+[15.609945] (tb3_description) StdoutLine: {'line': b'writing ../../build/tb3_description/tb3_description.egg-info/PKG-INFO\n'}
+[15.613650] (tb3_description) StdoutLine: {'line': b'writing dependency_links to ../../build/tb3_description/tb3_description.egg-info/dependency_links.txt\n'}
+[15.619270] (tb3_description) StdoutLine: {'line': b'writing entry points to ../../build/tb3_description/tb3_description.egg-info/entry_points.txt\n'}
+[15.623985] (tb3_description) StdoutLine: {'line': b'writing requirements to ../../build/tb3_description/tb3_description.egg-info/requires.txt\n'}
+[15.629265] (tb3_description) StdoutLine: {'line': b'writing top-level names to ../../build/tb3_description/tb3_description.egg-info/top_level.txt\n'}
+[15.632358] (-) TimerEvent: {}
+[15.643858] (tb3_description) StdoutLine: {'line': b"reading manifest file '../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'\n"}
+[15.651853] (tb3_description) StdoutLine: {'line': b"writing manifest file '../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'\n"}
+[15.654034] (tb3_description) StdoutLine: {'line': b'running build\n'}
+[15.654785] (tb3_description) StdoutLine: {'line': b'running build_py\n'}
+[15.659558] (tb3_description) StdoutLine: {'line': b'running install\n'}
+[15.660321] (tb3_description) StdoutLine: {'line': b'running install_lib\n'}
+[15.680581] (tb3_description) StdoutLine: {'line': b'running install_data\n'}
+[15.693446] (tb3_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.696345] (tb3_hardware) CommandEnded: {'returncode': 0}
+[15.706446] (tb3_description) StdoutLine: {'line': b"removing '/home/bot12/robot_ws/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.707214] (tb3_description) StdoutLine: {'line': b'Copying ../../build/tb3_description/tb3_description.egg-info to /home/bot12/robot_ws/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info\n'}
+[15.707936] (tb3_description) StdoutLine: {'line': b'running install_scripts\n'}
+[15.722644] (robot_bringup) StdoutLine: {'line': b'Installing robmove script to /home/bot12/robot_ws/install/robot_bringup/lib/robot_bringup\n'}
+[15.725850] (robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/bot12/robot_ws/build/robot_bringup/install.log'\n"}
+[15.735445] (-) TimerEvent: {}
+[15.854920] (-) TimerEvent: {}
+[15.897860] (tb3_description) StdoutLine: {'line': b"writing list of installed files to '/home/bot12/robot_ws/build/tb3_description/install.log'\n"}
+[15.947331] (tb3_hardware) JobEnded: {'identifier': 'tb3_hardware', 'rc': 0}
+[15.969226] (-) TimerEvent: {}
+[16.070822] (-) TimerEvent: {}
+[16.123724] (robot_bringup) CommandEnded: {'returncode': 0}
+[16.171415] (-) TimerEvent: {}
+[16.179232] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[16.187406] (tb3_description) CommandEnded: {'returncode': 0}
+[16.240324] (tb3_description) JobEnded: {'identifier': 'tb3_description', 'rc': 0}
+[16.272202] (-) TimerEvent: {}
+[16.373145] (-) TimerEvent: {}
+[16.474232] (-) TimerEvent: {}
+[16.512745] (tb3_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[16.515912] (tb3_teleop) StdoutLine: {'line': b'writing ../../build/tb3_teleop/tb3_teleop.egg-info/PKG-INFO\n'}
+[16.517200] (tb3_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/tb3_teleop/tb3_teleop.egg-info/dependency_links.txt\n'}
+[16.518617] (tb3_teleop) StdoutLine: {'line': b'writing entry points to ../../build/tb3_teleop/tb3_teleop.egg-info/entry_points.txt\n'}
+[16.519770] (tb3_teleop) StdoutLine: {'line': b'writing requirements to ../../build/tb3_teleop/tb3_teleop.egg-info/requires.txt\n'}
+[16.523716] (tb3_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/tb3_teleop/tb3_teleop.egg-info/top_level.txt\n'}
+[16.534808] (tb3_teleop) StdoutLine: {'line': b"reading manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'\n"}
+[16.539007] (tb3_teleop) StdoutLine: {'line': b"writing manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'\n"}
+[16.539808] (tb3_teleop) StdoutLine: {'line': b'running build\n'}
+[16.540361] (tb3_teleop) StdoutLine: {'line': b'running build_py\n'}
+[16.541564] (tb3_teleop) StdoutLine: {'line': b'running install\n'}
+[16.543471] (tb3_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[16.548977] (tb3_teleop) StdoutLine: {'line': b'running install_data\n'}
+[16.549568] (tb3_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.557248] (tb3_teleop) StdoutLine: {'line': b"removing '/home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[16.558865] (tb3_teleop) StdoutLine: {'line': b'Copying ../../build/tb3_teleop/tb3_teleop.egg-info to /home/bot12/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop-0.0.0-py3.10.egg-info\n'}
+[16.563907] (tb3_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[16.574445] (-) TimerEvent: {}
+[16.662431] (tb3_teleop) StdoutLine: {'line': b'Installing teleop script to /home/bot12/robot_ws/install/tb3_teleop/lib/tb3_teleop\n'}
+[16.664023] (tb3_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/bot12/robot_ws/build/tb3_teleop/install.log'\n"}
+[16.674690] (-) TimerEvent: {}
+[16.775914] (-) TimerEvent: {}
+[16.802577] (tb3_teleop) CommandEnded: {'returncode': 0}
+[16.841322] (tb3_teleop) JobEnded: {'identifier': 'tb3_teleop', 'rc': 0}
+[16.844766] (-) EventReactorShutdown: {}

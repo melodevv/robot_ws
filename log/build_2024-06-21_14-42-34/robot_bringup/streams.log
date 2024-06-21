@@ -1,0 +1,80 @@
+[6.806s] Invoking command in '/home/bot12/robot_ws/src/robot_bringup': PYTHONPATH=/home/bot12/robot_ws/build/robot_bringup/prefix_override:/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/bot12/robot_ws/build/robot_bringup/build install --record /home/bot12/robot_ws/build/robot_bringup/install.log --single-version-externally-managed install_data
+[8.332s] running egg_info
+[8.337s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[8.338s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[8.339s] writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+[8.342s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[8.342s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[8.354s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[8.360s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[8.361s] running build
+[8.362s] running build_py
+[8.363s] running install
+[8.365s] running install_lib
+[8.371s] running install_data
+[8.374s] copying config/left-0046.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.376s] copying config/left-0005.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.377s] copying config/left-0011.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.382s] copying config/left-0001.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.383s] copying config/left-0024.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.384s] copying config/left-0016.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.385s] copying config/left-0053.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.388s] copying config/left-0029.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.389s] copying config/left-0032.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.391s] copying config/camera_params.yaml -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.391s] copying config/left-0033.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.393s] copying config/left-0021.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.394s] copying config/left-0047.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.396s] copying config/left-0025.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.397s] copying config/left-0000.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.399s] copying config/left-0003.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.400s] copying config/left-0045.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.402s] copying config/left-0028.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.402s] copying config/left-0018.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.404s] copying config/left-0036.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.405s] copying config/left-0004.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.407s] copying config/left-0009.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.408s] copying config/left-0026.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.409s] copying config/left-0017.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.411s] copying config/left-0012.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.413s] copying config/left-0007.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.414s] copying config/left-0008.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.416s] copying config/left-0014.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.418s] copying config/left-0051.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.419s] copying config/left-0049.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.422s] copying config/left-0052.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.424s] copying config/left-0010.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.426s] copying config/left-0044.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.428s] copying config/left-0048.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.431s] copying config/left-0034.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.433s] copying config/ost.txt -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.434s] copying config/left-0019.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.437s] copying config/left-0006.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.438s] copying config/left-0042.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.439s] copying config/left-0035.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.441s] copying config/left-0030.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.443s] copying config/webcam.yaml -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.444s] copying config/left-0020.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.446s] copying config/left-0039.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.447s] copying config/left-0040.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.450s] copying config/left-0031.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.451s] copying config/left-0013.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.453s] copying config/left-0043.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.455s] copying config/left-0015.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.457s] copying config/left-0054.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.459s] copying config/left-0050.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.460s] copying config/left-0037.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.462s] copying config/left-0002.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.464s] copying config/left-0038.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.466s] copying config/left-0023.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.468s] copying config/left-0041.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.469s] copying config/left-0022.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.471s] copying config/left-0055.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.473s] copying config/left-0027.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+[8.474s] running install_egg_info
+[8.485s] removing '/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[8.487s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info
+[8.495s] running install_scripts
+[8.676s] Installing robmove script to /home/bot12/robot_ws/install/robot_bringup/lib/robot_bringup
+[8.682s] writing list of installed files to '/home/bot12/robot_ws/build/robot_bringup/install.log'
+[8.885s] Invoked command in '/home/bot12/robot_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/bot12/robot_ws/build/robot_bringup/prefix_override:/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/bot12/robot_ws/build/robot_bringup/build install --record /home/bot12/robot_ws/build/robot_bringup/install.log --single-version-externally-managed install_data

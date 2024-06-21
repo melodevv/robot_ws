@@ -1,0 +1,39 @@
+[8.675s] Invoking command in '/home/bot12/robot_ws/src/tb3_hardware': PYTHONPATH=/home/bot12/robot_ws/build/tb3_hardware/prefix_override:/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_hardware build --build-base /home/bot12/robot_ws/build/tb3_hardware/build install --record /home/bot12/robot_ws/build/tb3_hardware/install.log --single-version-externally-managed install_data
+[10.493s] running egg_info
+[10.497s] creating ../../build/tb3_hardware/tb3_hardware.egg-info
+[10.500s] writing ../../build/tb3_hardware/tb3_hardware.egg-info/PKG-INFO
+[10.504s] writing dependency_links to ../../build/tb3_hardware/tb3_hardware.egg-info/dependency_links.txt
+[10.506s] writing entry points to ../../build/tb3_hardware/tb3_hardware.egg-info/entry_points.txt
+[10.508s] writing requirements to ../../build/tb3_hardware/tb3_hardware.egg-info/requires.txt
+[10.511s] writing top-level names to ../../build/tb3_hardware/tb3_hardware.egg-info/top_level.txt
+[10.514s] writing manifest file '../../build/tb3_hardware/tb3_hardware.egg-info/SOURCES.txt'
+[10.526s] reading manifest file '../../build/tb3_hardware/tb3_hardware.egg-info/SOURCES.txt'
+[10.534s] writing manifest file '../../build/tb3_hardware/tb3_hardware.egg-info/SOURCES.txt'
+[10.536s] running build
+[10.538s] running build_py
+[10.539s] creating /home/bot12/robot_ws/build/tb3_hardware/build
+[10.540s] creating /home/bot12/robot_ws/build/tb3_hardware/build/lib
+[10.541s] creating /home/bot12/robot_ws/build/tb3_hardware/build/lib/tb3_hardware
+[10.542s] copying tb3_hardware/__init__.py -> /home/bot12/robot_ws/build/tb3_hardware/build/lib/tb3_hardware
+[10.543s] running install
+[10.544s] running install_lib
+[10.550s] creating /home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages/tb3_hardware
+[10.550s] copying /home/bot12/robot_ws/build/tb3_hardware/build/lib/tb3_hardware/__init__.py -> /home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages/tb3_hardware
+[10.554s] byte-compiling /home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages/tb3_hardware/__init__.py to __init__.cpython-310.pyc
+[10.556s] running install_data
+[10.557s] creating /home/bot12/robot_ws/install/tb3_hardware/share/ament_index
+[10.558s] creating /home/bot12/robot_ws/install/tb3_hardware/share/ament_index/resource_index
+[10.559s] creating /home/bot12/robot_ws/install/tb3_hardware/share/ament_index/resource_index/packages
+[10.559s] copying resource/tb3_hardware -> /home/bot12/robot_ws/install/tb3_hardware/share/ament_index/resource_index/packages
+[10.560s] copying package.xml -> /home/bot12/robot_ws/install/tb3_hardware/share/tb3_hardware
+[10.561s] creating /home/bot12/robot_ws/install/tb3_hardware/share/tb3_hardware/config
+[10.562s] copying config/camera_params.yaml -> /home/bot12/robot_ws/install/tb3_hardware/share/tb3_hardware/config
+[10.563s] copying config/webcam.yaml -> /home/bot12/robot_ws/install/tb3_hardware/share/tb3_hardware/config
+[10.567s] creating /home/bot12/robot_ws/install/tb3_hardware/share/tb3_hardware/launch
+[10.568s] copying launch/web_cam.launch.yaml -> /home/bot12/robot_ws/install/tb3_hardware/share/tb3_hardware/launch
+[10.569s] running install_egg_info
+[10.583s] Copying ../../build/tb3_hardware/tb3_hardware.egg-info to /home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages/tb3_hardware-0.0.0-py3.10.egg-info
+[10.610s] running install_scripts
+[10.890s] Installing config script to /home/bot12/robot_ws/install/tb3_hardware/lib/tb3_hardware
+[10.892s] writing list of installed files to '/home/bot12/robot_ws/build/tb3_hardware/install.log'
+[11.067s] Invoked command in '/home/bot12/robot_ws/src/tb3_hardware' returned '0': PYTHONPATH=/home/bot12/robot_ws/build/tb3_hardware/prefix_override:/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_hardware build --build-base /home/bot12/robot_ws/build/tb3_hardware/build install --record /home/bot12/robot_ws/build/tb3_hardware/install.log --single-version-externally-managed install_data

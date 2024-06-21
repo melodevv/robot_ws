@@ -1,0 +1,21 @@
+[9.836s] Invoking command in '/home/bot12/robot_ws/src/tb3_hardware': PYTHONPATH=/home/bot12/robot_ws/build/tb3_hardware/prefix_override:/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_hardware build --build-base /home/bot12/robot_ws/build/tb3_hardware/build install --record /home/bot12/robot_ws/build/tb3_hardware/install.log --single-version-externally-managed install_data
+[12.394s] running egg_info
+[12.398s] writing ../../build/tb3_hardware/tb3_hardware.egg-info/PKG-INFO
+[12.400s] writing dependency_links to ../../build/tb3_hardware/tb3_hardware.egg-info/dependency_links.txt
+[12.418s] writing entry points to ../../build/tb3_hardware/tb3_hardware.egg-info/entry_points.txt
+[12.418s] writing requirements to ../../build/tb3_hardware/tb3_hardware.egg-info/requires.txt
+[12.419s] writing top-level names to ../../build/tb3_hardware/tb3_hardware.egg-info/top_level.txt
+[12.431s] reading manifest file '../../build/tb3_hardware/tb3_hardware.egg-info/SOURCES.txt'
+[12.432s] writing manifest file '../../build/tb3_hardware/tb3_hardware.egg-info/SOURCES.txt'
+[12.433s] running build
+[12.440s] running build_py
+[12.441s] running install
+[12.443s] running install_lib
+[12.451s] running install_data
+[12.452s] running install_egg_info
+[12.468s] removing '/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages/tb3_hardware-0.0.0-py3.10.egg-info' (and everything under it)
+[12.470s] Copying ../../build/tb3_hardware/tb3_hardware.egg-info to /home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages/tb3_hardware-0.0.0-py3.10.egg-info
+[12.500s] running install_scripts
+[12.635s] Installing config script to /home/bot12/robot_ws/install/tb3_hardware/lib/tb3_hardware
+[12.636s] writing list of installed files to '/home/bot12/robot_ws/build/tb3_hardware/install.log'
+[12.850s] Invoked command in '/home/bot12/robot_ws/src/tb3_hardware' returned '0': PYTHONPATH=/home/bot12/robot_ws/build/tb3_hardware/prefix_override:/home/bot12/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_hardware build --build-base /home/bot12/robot_ws/build/tb3_hardware/build install --record /home/bot12/robot_ws/build/tb3_hardware/install.log --single-version-externally-managed install_data

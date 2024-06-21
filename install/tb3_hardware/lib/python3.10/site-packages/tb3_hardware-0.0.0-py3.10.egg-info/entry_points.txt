@@ -1,0 +1,3 @@
+[console_scripts]
+config = tb3_hardware.config:main
+

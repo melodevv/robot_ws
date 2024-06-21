@@ -1,0 +1,78 @@
+running egg_info
+writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying config/left-0046.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0005.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0011.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0001.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0024.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0016.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0053.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0029.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0032.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/camera_params.yaml -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0033.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0021.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0047.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0025.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0000.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0003.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0045.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0028.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0018.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0036.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0004.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0009.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0026.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0017.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0012.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0007.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0008.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0014.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0051.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0049.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0052.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0010.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0044.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0048.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0034.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/ost.txt -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0019.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0006.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0042.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0035.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0030.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/webcam.yaml -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0020.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0039.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0040.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0031.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0013.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0043.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0015.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0054.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0050.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0037.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0002.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0038.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0023.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0041.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0022.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0055.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+copying config/left-0027.png -> /home/bot12/robot_ws/install/robot_bringup/share/robot_bringup/config
+running install_egg_info
+removing '/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robmove script to /home/bot12/robot_ws/install/robot_bringup/lib/robot_bringup
+writing list of installed files to '/home/bot12/robot_ws/build/robot_bringup/install.log'
