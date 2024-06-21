@@ -147,14 +147,14 @@
         <visual>
             <origin rpy="1.5707963267948966 0.0 1.5707963267948966" xyz="-0.075 -0.005 -0.04"/>
             <geometry>
-                <mesh filename="file:///home/papasav/robot_ws/install/tb3_description/share/tb3_description/meshes/webcam.stl" scale="0.0001 0.0001 0.0001"/>
+                <mesh filename="file:///home/bot12/robot_ws/install/tb3_description/share/tb3_description/meshes/webcam.stl" scale="0.0001 0.0001 0.0001"/>
             </geometry>
             <material name="silver"/>
         </visual>
         <collision>
             <origin rpy="1.5707963267948966 0.0 1.5707963267948966" xyz="-0.075 -0.005 -0.04"/>
             <geometry>
-                <mesh filename="file:///home/papasav/robot_ws/install/tb3_description/share/tb3_description/meshes/webcam.stl" scale="0.0001 0.0001 0.0001"/>
+                <mesh filename="file:///home/bot12/robot_ws/install/tb3_description/share/tb3_description/meshes/webcam.stl" scale="0.0001 0.0001 0.0001"/>
             </geometry>
         </collision>
         <inertial>
@@ -178,7 +178,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 0" xyz="-0.037 0.037 -0.042"/>
             <geometry>
-                <mesh filename="file:///home/papasav/robot_ws/install/tb3_description/share/tb3_description/meshes/RPLIDAR.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="file:///home/bot12/robot_ws/install/tb3_description/share/tb3_description/meshes/RPLIDAR.stl" scale="0.001 0.001 0.001"/>
             </geometry>
             <material name="light_black"/>
         </visual>

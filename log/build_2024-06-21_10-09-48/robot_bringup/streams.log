@@ -1,0 +1,21 @@
+[8.950s] Invoking command in '/home/bot12/robot_ws/src/robot_bringup': PYTHONPATH=/home/bot12/robot_ws/build/robot_bringup/prefix_override:/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/bot12/robot_ws/build/robot_bringup/build install --record /home/bot12/robot_ws/build/robot_bringup/install.log --single-version-externally-managed install_data
+[11.077s] running egg_info
+[11.080s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[11.081s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[11.082s] writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+[11.083s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[11.083s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[11.092s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[11.096s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[11.097s] running build
+[11.098s] running build_py
+[11.099s] running install
+[11.101s] running install_lib
+[11.122s] running install_data
+[11.122s] running install_egg_info
+[11.123s] removing '/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[11.123s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info
+[11.125s] running install_scripts
+[11.222s] Installing robmove script to /home/bot12/robot_ws/install/robot_bringup/lib/robot_bringup
+[11.224s] writing list of installed files to '/home/bot12/robot_ws/build/robot_bringup/install.log'
+[11.381s] Invoked command in '/home/bot12/robot_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/bot12/robot_ws/build/robot_bringup/prefix_override:/home/bot12/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/bot12/robot_ws/build/robot_bringup/build install --record /home/bot12/robot_ws/build/robot_bringup/install.log --single-version-externally-managed install_data
