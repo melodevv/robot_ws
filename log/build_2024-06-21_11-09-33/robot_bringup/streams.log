@@ -1,0 +1,22 @@
+[3.095s] Invoking command in '/home/papasav/robot_ws/src/robot_bringup': PYTHONPATH=/home/papasav/robot_ws/build/robot_bringup/prefix_override:/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/papasav/robot_ws/build/robot_bringup/build install --record /home/papasav/robot_ws/build/robot_bringup/install.log --single-version-externally-managed install_data
+[4.148s] running egg_info
+[4.165s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[4.165s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[4.166s] writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+[4.166s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[4.167s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[4.172s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[4.176s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[4.177s] running build
+[4.177s] running build_py
+[4.177s] running install
+[4.179s] running install_lib
+[4.182s] running install_data
+[4.183s] copying launch/turtlebot3_tf.launch.yaml -> /home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/launch
+[4.183s] running install_egg_info
+[4.189s] removing '/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[4.190s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info
+[4.193s] running install_scripts
+[4.273s] Installing robmove script to /home/papasav/robot_ws/install/robot_bringup/lib/robot_bringup
+[4.276s] writing list of installed files to '/home/papasav/robot_ws/build/robot_bringup/install.log'
+[4.755s] Invoked command in '/home/papasav/robot_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/papasav/robot_ws/build/robot_bringup/prefix_override:/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/papasav/robot_ws/build/robot_bringup/build install --record /home/papasav/robot_ws/build/robot_bringup/install.log --single-version-externally-managed install_data
