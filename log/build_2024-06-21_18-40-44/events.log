@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.001636] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.001749] (tb3_description) JobQueued: {'identifier': 'tb3_description', 'dependencies': OrderedDict()}
+[0.001803] (tb3_teleop) JobQueued: {'identifier': 'tb3_teleop', 'dependencies': OrderedDict()}
+[0.001854] (tf_listener) JobQueued: {'identifier': 'tf_listener', 'dependencies': OrderedDict()}
+[0.001904] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.019035] (tb3_description) JobStarted: {'identifier': 'tb3_description'}
+[0.098677] (-) TimerEvent: {}
+[0.201127] (-) TimerEvent: {}
+[0.302547] (-) TimerEvent: {}
+[0.403229] (-) TimerEvent: {}
+[0.503666] (-) TimerEvent: {}
+[0.604122] (-) TimerEvent: {}
+[0.704590] (-) TimerEvent: {}
+[0.805437] (-) TimerEvent: {}
+[0.906221] (-) TimerEvent: {}
+[1.006865] (-) TimerEvent: {}
+[1.107350] (-) TimerEvent: {}
+[1.207814] (-) TimerEvent: {}
+[1.308306] (-) TimerEvent: {}
+[1.408847] (-) TimerEvent: {}
+[1.509664] (-) TimerEvent: {}
+[1.610287] (-) TimerEvent: {}
+[1.710868] (-) TimerEvent: {}
+[1.811477] (-) TimerEvent: {}
+[1.912154] (-) TimerEvent: {}
+[2.012833] (-) TimerEvent: {}
+[2.113454] (-) TimerEvent: {}
+[2.214131] (-) TimerEvent: {}
+[2.314825] (-) TimerEvent: {}
+[2.415546] (-) TimerEvent: {}
+[2.516211] (-) TimerEvent: {}
+[2.616885] (-) TimerEvent: {}
+[2.717591] (-) TimerEvent: {}
+[2.778164] (tb3_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tb3_description', 'build', '--build-base', '/home/papasav/robot_ws/build/tb3_description/build', 'install', '--record', '/home/papasav/robot_ws/build/tb3_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/papasav/robot_ws/src/tb3_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,3873,0', 'LANGUAGE': 'en_ZA:en', 'USER': 'papasav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/papasav', 'OLDPWD': '/home/papasav/robot_ws/src', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1613', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/papasav/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'papasav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'papasav', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/papasav-sys:@/tmp/.ICE-unix/1381,unix/papasav-sys:/tmp/.ICE-unix/1381', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1b6e093a_6048_4d3c_8c73_70c42d5c7583', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.M66NP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/papasav/robot_ws/install/tf_listener:/home/papasav/robot_ws/install/tf_listner:/home/papasav/robot_ws/install/tb3_teleop:/home/papasav/robot_ws/install/tb3_hardware:/home/papasav/robot_ws/install/tb3_description:/home/papasav/robot_ws/install/robot_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/papasav/robot_ws/build/tb3_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/papasav/robot_ws/build/tb3_description/prefix_override:/home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0'}, 'shell': False}
+[2.817761] (-) TimerEvent: {}
+[2.868780] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/papasav/robot_ws/build/robot_bringup/build', 'install', '--record', '/home/papasav/robot_ws/build/robot_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/papasav/robot_ws/src/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,3873,0', 'LANGUAGE': 'en_ZA:en', 'USER': 'papasav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/papasav', 'OLDPWD': '/home/papasav/robot_ws/src', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1613', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/papasav/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'papasav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'papasav', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/papasav-sys:@/tmp/.ICE-unix/1381,unix/papasav-sys:/tmp/.ICE-unix/1381', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1b6e093a_6048_4d3c_8c73_70c42d5c7583', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.M66NP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/papasav/robot_ws/install/tf_listener:/home/papasav/robot_ws/install/tf_listner:/home/papasav/robot_ws/install/tb3_teleop:/home/papasav/robot_ws/install/tb3_hardware:/home/papasav/robot_ws/install/tb3_description:/home/papasav/robot_ws/install/robot_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/papasav/robot_ws/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/papasav/robot_ws/build/robot_bringup/prefix_override:/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0'}, 'shell': False}
+[2.917910] (-) TimerEvent: {}
+[3.018496] (-) TimerEvent: {}
+[3.119173] (-) TimerEvent: {}
+[3.219851] (-) TimerEvent: {}
+[3.320508] (-) TimerEvent: {}
+[3.421178] (-) TimerEvent: {}
+[3.521870] (-) TimerEvent: {}
+[3.615789] (tb3_description) StdoutLine: {'line': b'running egg_info\n'}
+[3.618394] (tb3_description) StdoutLine: {'line': b'writing ../../build/tb3_description/tb3_description.egg-info/PKG-INFO\n'}
+[3.619111] (tb3_description) StdoutLine: {'line': b'writing dependency_links to ../../build/tb3_description/tb3_description.egg-info/dependency_links.txt\n'}
+[3.619568] (tb3_description) StdoutLine: {'line': b'writing entry points to ../../build/tb3_description/tb3_description.egg-info/entry_points.txt\n'}
+[3.620019] (tb3_description) StdoutLine: {'line': b'writing requirements to ../../build/tb3_description/tb3_description.egg-info/requires.txt\n'}
+[3.620483] (tb3_description) StdoutLine: {'line': b'writing top-level names to ../../build/tb3_description/tb3_description.egg-info/top_level.txt\n'}
+[3.622027] (-) TimerEvent: {}
+[3.626000] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[3.626475] (tb3_description) StdoutLine: {'line': b"reading manifest file '../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'\n"}
+[3.629406] (tb3_description) StdoutLine: {'line': b"writing manifest file '../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'\n"}
+[3.629902] (tb3_description) StdoutLine: {'line': b'running build\n'}
+[3.630172] (tb3_description) StdoutLine: {'line': b'running build_py\n'}
+[3.630648] (tb3_description) StdoutLine: {'line': b'running install\n'}
+[3.630930] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[3.631867] (tb3_description) StdoutLine: {'line': b'running install_lib\n'}
+[3.632578] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[3.633653] (robot_bringup) StdoutLine: {'line': b'writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt\n'}
+[3.634641] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[3.635497] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[3.636510] (tb3_description) StdoutLine: {'line': b'running install_data\n'}
+[3.638114] (tb3_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.642284] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.643905] (tb3_description) StdoutLine: {'line': b"removing '/home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.644889] (tb3_description) StdoutLine: {'line': b'Copying ../../build/tb3_description/tb3_description.egg-info to /home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info\n'}
+[3.647645] (tb3_description) StdoutLine: {'line': b'running install_scripts\n'}
+[3.653969] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[3.654352] (robot_bringup) StdoutLine: {'line': b'running build\n'}
+[3.654594] (robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[3.654815] (robot_bringup) StdoutLine: {'line': b'running install\n'}
+[3.655372] (robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[3.661738] (robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[3.662998] (robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.669013] (robot_bringup) StdoutLine: {'line': b"removing '/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.670435] (robot_bringup) StdoutLine: {'line': b'Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info\n'}
+[3.673446] (robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[3.722193] (-) TimerEvent: {}
+[3.722639] (tb3_description) StdoutLine: {'line': b"writing list of installed files to '/home/papasav/robot_ws/build/tb3_description/install.log'\n"}
+[3.738048] (robot_bringup) StdoutLine: {'line': b'Installing robmove script to /home/papasav/robot_ws/install/robot_bringup/lib/robot_bringup\n'}
+[3.740089] (robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/papasav/robot_ws/build/robot_bringup/install.log'\n"}
+[3.823140] (tb3_description) CommandEnded: {'returncode': 0}
+[3.824291] (-) TimerEvent: {}
+[3.849066] (tb3_description) JobEnded: {'identifier': 'tb3_description', 'rc': 0}
+[3.861873] (tb3_teleop) JobStarted: {'identifier': 'tb3_teleop'}
+[3.871022] (robot_bringup) CommandEnded: {'returncode': 0}
+[3.891709] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[3.894731] (tf_listener) JobStarted: {'identifier': 'tf_listener'}
+[3.925444] (-) TimerEvent: {}
+[4.027014] (-) TimerEvent: {}
+[4.127729] (-) TimerEvent: {}
+[4.228188] (-) TimerEvent: {}
+[4.328643] (-) TimerEvent: {}
+[4.429124] (-) TimerEvent: {}
+[4.529635] (-) TimerEvent: {}
+[4.630165] (-) TimerEvent: {}
+[4.731073] (-) TimerEvent: {}
+[4.831711] (-) TimerEvent: {}
+[4.932160] (-) TimerEvent: {}
+[5.032613] (-) TimerEvent: {}
+[5.133087] (-) TimerEvent: {}
+[5.233550] (-) TimerEvent: {}
+[5.334358] (-) TimerEvent: {}
+[5.435223] (-) TimerEvent: {}
+[5.536030] (-) TimerEvent: {}
+[5.636495] (-) TimerEvent: {}
+[5.736940] (-) TimerEvent: {}
+[5.837399] (-) TimerEvent: {}
+[5.937872] (-) TimerEvent: {}
+[6.038378] (-) TimerEvent: {}
+[6.138907] (-) TimerEvent: {}
+[6.239533] (-) TimerEvent: {}
+[6.340061] (-) TimerEvent: {}
+[6.440538] (-) TimerEvent: {}
+[6.541047] (-) TimerEvent: {}
+[6.641604] (-) TimerEvent: {}
+[6.680458] (tb3_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tb3_teleop', 'build', '--build-base', '/home/papasav/robot_ws/build/tb3_teleop/build', 'install', '--record', '/home/papasav/robot_ws/build/tb3_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/papasav/robot_ws/src/tb3_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,3873,0', 'LANGUAGE': 'en_ZA:en', 'USER': 'papasav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/papasav', 'OLDPWD': '/home/papasav/robot_ws/src', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1613', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/papasav/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'papasav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'papasav', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/papasav-sys:@/tmp/.ICE-unix/1381,unix/papasav-sys:/tmp/.ICE-unix/1381', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1b6e093a_6048_4d3c_8c73_70c42d5c7583', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.M66NP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/papasav/robot_ws/install/tf_listener:/home/papasav/robot_ws/install/tf_listner:/home/papasav/robot_ws/install/tb3_teleop:/home/papasav/robot_ws/install/tb3_hardware:/home/papasav/robot_ws/install/tb3_description:/home/papasav/robot_ws/install/robot_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/papasav/robot_ws/build/tb3_teleop', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/papasav/robot_ws/build/tb3_teleop/prefix_override:/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0'}, 'shell': False}
+[6.741769] (-) TimerEvent: {}
+[6.824061] (tf_listener) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tf_listener', 'build', '--build-base', '/home/papasav/robot_ws/build/tf_listener/build', 'install', '--record', '/home/papasav/robot_ws/build/tf_listener/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/papasav/robot_ws/src/tf_listener', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,3873,0', 'LANGUAGE': 'en_ZA:en', 'USER': 'papasav', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/papasav', 'OLDPWD': '/home/papasav/robot_ws/src', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1613', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/papasav/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'papasav', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'papasav', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/papasav-sys:@/tmp/.ICE-unix/1381,unix/papasav-sys:/tmp/.ICE-unix/1381', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1b6e093a_6048_4d3c_8c73_70c42d5c7583', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.M66NP2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/papasav/robot_ws/install/tf_listener:/home/papasav/robot_ws/install/tf_listner:/home/papasav/robot_ws/install/tb3_teleop:/home/papasav/robot_ws/install/tb3_hardware:/home/papasav/robot_ws/install/tb3_description:/home/papasav/robot_ws/install/robot_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/papasav/robot_ws/build/tf_listener', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/papasav/robot_ws/build/tf_listener/prefix_override:/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_hardware/lib/python3.10/site-packages:/home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages:/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0'}, 'shell': False}
+[6.841948] (-) TimerEvent: {}
+[6.942489] (-) TimerEvent: {}
+[7.043019] (-) TimerEvent: {}
+[7.143479] (-) TimerEvent: {}
+[7.243939] (-) TimerEvent: {}
+[7.344403] (-) TimerEvent: {}
+[7.445078] (-) TimerEvent: {}
+[7.541595] (tb3_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[7.544718] (tb3_teleop) StdoutLine: {'line': b'writing ../../build/tb3_teleop/tb3_teleop.egg-info/PKG-INFO\n'}
+[7.545181] (-) TimerEvent: {}
+[7.546236] (tb3_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/tb3_teleop/tb3_teleop.egg-info/dependency_links.txt\n'}
+[7.547236] (tb3_teleop) StdoutLine: {'line': b'writing entry points to ../../build/tb3_teleop/tb3_teleop.egg-info/entry_points.txt\n'}
+[7.548249] (tb3_teleop) StdoutLine: {'line': b'writing requirements to ../../build/tb3_teleop/tb3_teleop.egg-info/requires.txt\n'}
+[7.549067] (tb3_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/tb3_teleop/tb3_teleop.egg-info/top_level.txt\n'}
+[7.554535] (tb3_teleop) StdoutLine: {'line': b"reading manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'\n"}
+[7.557770] (tb3_teleop) StdoutLine: {'line': b"writing manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'\n"}
+[7.558517] (tb3_teleop) StdoutLine: {'line': b'running build\n'}
+[7.558914] (tb3_teleop) StdoutLine: {'line': b'running build_py\n'}
+[7.560274] (tb3_teleop) StdoutLine: {'line': b'running install\n'}
+[7.561727] (tb3_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[7.565962] (tb3_teleop) StdoutLine: {'line': b'running install_data\n'}
+[7.566841] (tb3_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.579127] (tb3_teleop) StdoutLine: {'line': b"removing '/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.580029] (tb3_teleop) StdoutLine: {'line': b'Copying ../../build/tb3_teleop/tb3_teleop.egg-info to /home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop-0.0.0-py3.10.egg-info\n'}
+[7.582877] (tb3_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[7.600093] (tf_listener) StdoutLine: {'line': b'running egg_info\n'}
+[7.603625] (tf_listener) StdoutLine: {'line': b'writing ../../build/tf_listener/tf_listener.egg-info/PKG-INFO\n'}
+[7.605100] (tf_listener) StdoutLine: {'line': b'writing dependency_links to ../../build/tf_listener/tf_listener.egg-info/dependency_links.txt\n'}
+[7.606391] (tf_listener) StdoutLine: {'line': b'writing entry points to ../../build/tf_listener/tf_listener.egg-info/entry_points.txt\n'}
+[7.607482] (tf_listener) StdoutLine: {'line': b'writing requirements to ../../build/tf_listener/tf_listener.egg-info/requires.txt\n'}
+[7.608426] (tf_listener) StdoutLine: {'line': b'writing top-level names to ../../build/tf_listener/tf_listener.egg-info/top_level.txt\n'}
+[7.614580] (tf_listener) StdoutLine: {'line': b"reading manifest file '../../build/tf_listener/tf_listener.egg-info/SOURCES.txt'\n"}
+[7.617784] (tf_listener) StdoutLine: {'line': b"writing manifest file '../../build/tf_listener/tf_listener.egg-info/SOURCES.txt'\n"}
+[7.618751] (tf_listener) StdoutLine: {'line': b'running build\n'}
+[7.619422] (tf_listener) StdoutLine: {'line': b'running build_py\n'}
+[7.620937] (tf_listener) StdoutLine: {'line': b'running install\n'}
+[7.622539] (tf_listener) StdoutLine: {'line': b'running install_lib\n'}
+[7.626719] (tf_listener) StdoutLine: {'line': b'running install_data\n'}
+[7.627788] (tf_listener) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.633680] (tf_listener) StdoutLine: {'line': b"removing '/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.635149] (tf_listener) StdoutLine: {'line': b'Copying ../../build/tf_listener/tf_listener.egg-info to /home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener-0.0.0-py3.10.egg-info\n'}
+[7.638533] (tf_listener) StdoutLine: {'line': b'running install_scripts\n'}
+[7.645344] (-) TimerEvent: {}
+[7.653700] (tb3_teleop) StdoutLine: {'line': b'Installing teleop script to /home/papasav/robot_ws/install/tb3_teleop/lib/tb3_teleop\n'}
+[7.654721] (tb3_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/papasav/robot_ws/build/tb3_teleop/install.log'\n"}
+[7.710799] (tf_listener) StdoutLine: {'line': b'Installing tf_listener script to /home/papasav/robot_ws/install/tf_listener/lib/tf_listener\n'}
+[7.712788] (tf_listener) StdoutLine: {'line': b"writing list of installed files to '/home/papasav/robot_ws/build/tf_listener/install.log'\n"}
+[7.745534] (-) TimerEvent: {}
+[7.751333] (tb3_teleop) CommandEnded: {'returncode': 0}
+[7.770851] (tb3_teleop) JobEnded: {'identifier': 'tb3_teleop', 'rc': 0}
+[7.800476] (tf_listener) CommandEnded: {'returncode': 0}
+[7.822933] (tf_listener) JobEnded: {'identifier': 'tf_listener', 'rc': 0}
+[7.824607] (-) EventReactorShutdown: {}

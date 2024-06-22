@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/tf_listner/tf_listner.egg-info
+writing ../../build/tf_listner/tf_listner.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf_listner/tf_listner.egg-info/dependency_links.txt
+writing entry points to ../../build/tf_listner/tf_listner.egg-info/entry_points.txt
+writing requirements to ../../build/tf_listner/tf_listner.egg-info/requires.txt
+writing top-level names to ../../build/tf_listner/tf_listner.egg-info/top_level.txt
+writing manifest file '../../build/tf_listner/tf_listner.egg-info/SOURCES.txt'
+reading manifest file '../../build/tf_listner/tf_listner.egg-info/SOURCES.txt'
+writing manifest file '../../build/tf_listner/tf_listner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/papasav/robot_ws/build/tf_listner/build
+creating /home/papasav/robot_ws/build/tf_listner/build/lib
+creating /home/papasav/robot_ws/build/tf_listner/build/lib/tf_listner
+copying tf_listner/__init__.py -> /home/papasav/robot_ws/build/tf_listner/build/lib/tf_listner
+running install
+running install_lib
+creating /home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages/tf_listner
+copying /home/papasav/robot_ws/build/tf_listner/build/lib/tf_listner/__init__.py -> /home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages/tf_listner
+byte-compiling /home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages/tf_listner/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/papasav/robot_ws/install/tf_listner/share/ament_index
+creating /home/papasav/robot_ws/install/tf_listner/share/ament_index/resource_index
+creating /home/papasav/robot_ws/install/tf_listner/share/ament_index/resource_index/packages
+copying resource/tf_listner -> /home/papasav/robot_ws/install/tf_listner/share/ament_index/resource_index/packages
+copying package.xml -> /home/papasav/robot_ws/install/tf_listner/share/tf_listner
+running install_egg_info
+Copying ../../build/tf_listner/tf_listner.egg-info to /home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages/tf_listner-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/papasav/robot_ws/build/tf_listner/install.log'

@@ -1,0 +1,33 @@
+[2.708s] Invoking command in '/home/papasav/robot_ws/src/tf_listner': PYTHONPATH=/home/papasav/robot_ws/build/tf_listner/prefix_override:/home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_listner build --build-base /home/papasav/robot_ws/build/tf_listner/build install --record /home/papasav/robot_ws/build/tf_listner/install.log --single-version-externally-managed install_data
+[3.513s] running egg_info
+[3.515s] creating ../../build/tf_listner/tf_listner.egg-info
+[3.515s] writing ../../build/tf_listner/tf_listner.egg-info/PKG-INFO
+[3.519s] writing dependency_links to ../../build/tf_listner/tf_listner.egg-info/dependency_links.txt
+[3.519s] writing entry points to ../../build/tf_listner/tf_listner.egg-info/entry_points.txt
+[3.519s] writing requirements to ../../build/tf_listner/tf_listner.egg-info/requires.txt
+[3.519s] writing top-level names to ../../build/tf_listner/tf_listner.egg-info/top_level.txt
+[3.520s] writing manifest file '../../build/tf_listner/tf_listner.egg-info/SOURCES.txt'
+[3.524s] reading manifest file '../../build/tf_listner/tf_listner.egg-info/SOURCES.txt'
+[3.526s] writing manifest file '../../build/tf_listner/tf_listner.egg-info/SOURCES.txt'
+[3.527s] running build
+[3.527s] running build_py
+[3.527s] creating /home/papasav/robot_ws/build/tf_listner/build
+[3.528s] creating /home/papasav/robot_ws/build/tf_listner/build/lib
+[3.528s] creating /home/papasav/robot_ws/build/tf_listner/build/lib/tf_listner
+[3.528s] copying tf_listner/__init__.py -> /home/papasav/robot_ws/build/tf_listner/build/lib/tf_listner
+[3.529s] running install
+[3.530s] running install_lib
+[3.532s] creating /home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages/tf_listner
+[3.532s] copying /home/papasav/robot_ws/build/tf_listner/build/lib/tf_listner/__init__.py -> /home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages/tf_listner
+[3.534s] byte-compiling /home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages/tf_listner/__init__.py to __init__.cpython-310.pyc
+[3.534s] running install_data
+[3.535s] creating /home/papasav/robot_ws/install/tf_listner/share/ament_index
+[3.535s] creating /home/papasav/robot_ws/install/tf_listner/share/ament_index/resource_index
+[3.536s] creating /home/papasav/robot_ws/install/tf_listner/share/ament_index/resource_index/packages
+[3.536s] copying resource/tf_listner -> /home/papasav/robot_ws/install/tf_listner/share/ament_index/resource_index/packages
+[3.536s] copying package.xml -> /home/papasav/robot_ws/install/tf_listner/share/tf_listner
+[3.537s] running install_egg_info
+[3.541s] Copying ../../build/tf_listner/tf_listner.egg-info to /home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages/tf_listner-0.0.0-py3.10.egg-info
+[3.543s] running install_scripts
+[3.619s] writing list of installed files to '/home/papasav/robot_ws/build/tf_listner/install.log'
+[3.714s] Invoked command in '/home/papasav/robot_ws/src/tf_listner' returned '0': PYTHONPATH=/home/papasav/robot_ws/build/tf_listner/prefix_override:/home/papasav/robot_ws/install/tf_listner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_listner build --build-base /home/papasav/robot_ws/build/tf_listner/build install --record /home/papasav/robot_ws/build/tf_listner/install.log --single-version-externally-managed install_data

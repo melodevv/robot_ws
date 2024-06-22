@@ -1,0 +1,277 @@
+[4.031s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.031s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78099162e560>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78099162ded0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78099162ded0>>, mixin_verb=('build',))
+[8.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/papasav/robot_ws'
+[8.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.350s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.350s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.350s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.351s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.351s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.351s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.352s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.352s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.352s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[8.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[8.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[8.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[8.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[8.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[8.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[8.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[8.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[8.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[8.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[8.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[8.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[8.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_python' and name 'robot_bringup'
+[8.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extensions ['ignore', 'ignore_ament_install']
+[8.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'ignore'
+[8.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'ignore_ament_install'
+[8.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extensions ['colcon_pkg']
+[8.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'colcon_pkg'
+[8.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extensions ['colcon_meta']
+[8.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'colcon_meta'
+[8.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extensions ['ros']
+[8.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_description) by extension 'ros'
+[8.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_description' with type 'ros.ament_python' and name 'tb3_description'
+[8.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[8.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_teleop) by extension 'ignore'
+[8.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_teleop) by extension 'ignore_ament_install'
+[8.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_teleop) by extensions ['colcon_pkg']
+[8.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_teleop) by extension 'colcon_pkg'
+[8.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_teleop) by extensions ['colcon_meta']
+[8.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_teleop) by extension 'colcon_meta'
+[8.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_teleop) by extensions ['ros']
+[8.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_teleop) by extension 'ros'
+[8.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_teleop' with type 'ros.ament_python' and name 'tb3_teleop'
+[8.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_listener) by extensions ['ignore', 'ignore_ament_install']
+[8.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_listener) by extension 'ignore'
+[8.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_listener) by extension 'ignore_ament_install'
+[8.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_listener) by extensions ['colcon_pkg']
+[8.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_listener) by extension 'colcon_pkg'
+[8.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_listener) by extensions ['colcon_meta']
+[8.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_listener) by extension 'colcon_meta'
+[8.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_listener) by extensions ['ros']
+[8.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf_listener) by extension 'ros'
+[8.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf_listener' with type 'ros.ament_python' and name 'tf_listener'
+[8.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.791s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/papasav/robot_ws/install
+[8.796s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 280 installed packages in /opt/ros/humble
+[8.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.965s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[8.965s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[8.965s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.965s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[8.965s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[8.965s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[8.965s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[8.966s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[8.966s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.966s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papasav/robot_ws/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papasav/robot_ws/install/robot_bringup', 'merge_install': False, 'path': '/home/papasav/robot_ws/src/robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[8.967s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_args' from command line to 'None'
+[8.967s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_target' from command line to 'None'
+[8.967s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.967s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[8.967s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_clean_first' from command line to 'False'
+[8.967s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_force_configure' from command line to 'False'
+[8.967s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'ament_cmake_args' from command line to 'None'
+[8.967s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[8.967s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.967s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papasav/robot_ws/build/tb3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papasav/robot_ws/install/tb3_description', 'merge_install': False, 'path': '/home/papasav/robot_ws/src/tb3_description', 'symlink_install': False, 'test_result_base': None}
+[8.968s] Level 5:colcon.colcon_core.verb:set package 'tb3_teleop' build argument 'cmake_args' from command line to 'None'
+[8.968s] Level 5:colcon.colcon_core.verb:set package 'tb3_teleop' build argument 'cmake_target' from command line to 'None'
+[8.968s] Level 5:colcon.colcon_core.verb:set package 'tb3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.968s] Level 5:colcon.colcon_core.verb:set package 'tb3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[8.968s] Level 5:colcon.colcon_core.verb:set package 'tb3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[8.968s] Level 5:colcon.colcon_core.verb:set package 'tb3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[8.969s] Level 5:colcon.colcon_core.verb:set package 'tb3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[8.969s] Level 5:colcon.colcon_core.verb:set package 'tb3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[8.969s] Level 5:colcon.colcon_core.verb:set package 'tb3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.969s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papasav/robot_ws/build/tb3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papasav/robot_ws/install/tb3_teleop', 'merge_install': False, 'path': '/home/papasav/robot_ws/src/tb3_teleop', 'symlink_install': False, 'test_result_base': None}
+[8.970s] Level 5:colcon.colcon_core.verb:set package 'tf_listener' build argument 'cmake_args' from command line to 'None'
+[8.970s] Level 5:colcon.colcon_core.verb:set package 'tf_listener' build argument 'cmake_target' from command line to 'None'
+[8.970s] Level 5:colcon.colcon_core.verb:set package 'tf_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.970s] Level 5:colcon.colcon_core.verb:set package 'tf_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[8.970s] Level 5:colcon.colcon_core.verb:set package 'tf_listener' build argument 'cmake_clean_first' from command line to 'False'
+[8.970s] Level 5:colcon.colcon_core.verb:set package 'tf_listener' build argument 'cmake_force_configure' from command line to 'False'
+[8.970s] Level 5:colcon.colcon_core.verb:set package 'tf_listener' build argument 'ament_cmake_args' from command line to 'None'
+[8.970s] Level 5:colcon.colcon_core.verb:set package 'tf_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[8.970s] Level 5:colcon.colcon_core.verb:set package 'tf_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.970s] DEBUG:colcon.colcon_core.verb:Building package 'tf_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/papasav/robot_ws/build/tf_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/papasav/robot_ws/install/tf_listener', 'merge_install': False, 'path': '/home/papasav/robot_ws/src/tf_listener', 'symlink_install': False, 'test_result_base': None}
+[8.971s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.973s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/papasav/robot_ws/src/robot_bringup' with build type 'ament_python'
+[8.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'ament_prefix_path')
+[8.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.ps1'
+[9.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.dsv'
+[9.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.sh'
+[9.030s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.030s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.049s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/papasav/robot_ws/src/tb3_description' with build type 'ament_python'
+[9.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_description', 'ament_prefix_path')
+[9.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/hook/ament_prefix_path.ps1'
+[9.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/hook/ament_prefix_path.dsv'
+[9.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/hook/ament_prefix_path.sh'
+[9.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.056s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.785s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/papasav/robot_ws/src/robot_bringup'
+[9.786s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.786s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.457s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/papasav/robot_ws/src/tb3_description'
+[10.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papasav/robot_ws/src/robot_bringup': PYTHONPATH=/home/papasav/robot_ws/build/robot_bringup/prefix_override:/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/papasav/robot_ws/build/robot_bringup/build install --record /home/papasav/robot_ws/build/robot_bringup/install.log --single-version-externally-managed install_data
+[13.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papasav/robot_ws/src/tb3_description': PYTHONPATH=/home/papasav/robot_ws/build/tb3_description/prefix_override:/home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_description build --build-base /home/papasav/robot_ws/build/tb3_description/build install --record /home/papasav/robot_ws/build/tb3_description/install.log --single-version-externally-managed install_data
+[14.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papasav/robot_ws/src/tb3_description' returned '0': PYTHONPATH=/home/papasav/robot_ws/build/tb3_description/prefix_override:/home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_description build --build-base /home/papasav/robot_ws/build/tb3_description/build install --record /home/papasav/robot_ws/build/tb3_description/install.log --single-version-externally-managed install_data
+[14.552s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_description' for CMake module files
+[14.554s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_description' for CMake config files
+[14.568s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_description/lib'
+[14.569s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_description/bin'
+[14.570s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_description/lib/pkgconfig/tb3_description.pc'
+[14.570s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_description/lib/python3.10/site-packages'
+[14.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_description', 'pythonpath')
+[14.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/hook/pythonpath.ps1'
+[14.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/hook/pythonpath.dsv'
+[14.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/hook/pythonpath.sh'
+[14.575s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_description/bin'
+[14.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_description)
+[14.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/package.ps1'
+[14.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/package.dsv'
+[14.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/package.sh'
+[14.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/package.bash'
+[14.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tb3_description/share/tb3_description/package.zsh'
+[14.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papasav/robot_ws/install/tb3_description/share/colcon-core/packages/tb3_description)
+[14.629s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/papasav/robot_ws/src/tb3_teleop' with build type 'ament_python'
+[14.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_teleop', 'ament_prefix_path')
+[14.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/hook/ament_prefix_path.ps1'
+[14.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/hook/ament_prefix_path.dsv'
+[14.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/hook/ament_prefix_path.sh'
+[14.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.660s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/robot_bringup' for CMake module files
+[14.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papasav/robot_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/papasav/robot_ws/build/robot_bringup/prefix_override:/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/papasav/robot_ws/build/robot_bringup/build install --record /home/papasav/robot_ws/build/robot_bringup/install.log --single-version-externally-managed install_data
+[14.662s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/robot_bringup' for CMake config files
+[14.683s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/robot_bringup/lib'
+[14.683s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/robot_bringup/bin'
+[14.684s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[14.684s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/robot_bringup/lib/python3.10/site-packages'
+[14.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath')
+[14.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.ps1'
+[14.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.dsv'
+[14.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.sh'
+[14.690s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/robot_bringup/bin'
+[14.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[14.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/package.ps1'
+[14.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/package.dsv'
+[14.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/package.sh'
+[14.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/package.bash'
+[14.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/robot_bringup/share/robot_bringup/package.zsh'
+[14.696s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papasav/robot_ws/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[14.698s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/papasav/robot_ws/src/tf_listener' with build type 'ament_python'
+[14.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_listener', 'ament_prefix_path')
+[14.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/hook/ament_prefix_path.ps1'
+[14.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/hook/ament_prefix_path.dsv'
+[14.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/hook/ament_prefix_path.sh'
+[14.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.426s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/papasav/robot_ws/src/tb3_teleop'
+[15.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.121s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/papasav/robot_ws/src/tf_listener'
+[16.122s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papasav/robot_ws/src/tb3_teleop': PYTHONPATH=/home/papasav/robot_ws/build/tb3_teleop/prefix_override:/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_teleop build --build-base /home/papasav/robot_ws/build/tb3_teleop/build install --record /home/papasav/robot_ws/build/tb3_teleop/install.log --single-version-externally-managed install_data
+[17.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/papasav/robot_ws/src/tf_listener': PYTHONPATH=/home/papasav/robot_ws/build/tf_listener/prefix_override:/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_listener build --build-base /home/papasav/robot_ws/build/tf_listener/build install --record /home/papasav/robot_ws/build/tf_listener/install.log --single-version-externally-managed install_data
+[18.604s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_teleop' for CMake module files
+[18.605s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_teleop' for CMake config files
+[18.607s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_teleop/lib'
+[18.607s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_teleop/bin'
+[18.608s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_teleop/lib/pkgconfig/tb3_teleop.pc'
+[18.609s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages'
+[18.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papasav/robot_ws/src/tb3_teleop' returned '0': PYTHONPATH=/home/papasav/robot_ws/build/tb3_teleop/prefix_override:/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_teleop build --build-base /home/papasav/robot_ws/build/tb3_teleop/build install --record /home/papasav/robot_ws/build/tb3_teleop/install.log --single-version-externally-managed install_data
+[18.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_teleop', 'pythonpath')
+[18.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/hook/pythonpath.ps1'
+[18.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/hook/pythonpath.dsv'
+[18.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/hook/pythonpath.sh'
+[18.616s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tb3_teleop/bin'
+[18.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_teleop)
+[18.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/package.ps1'
+[18.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/package.dsv'
+[18.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/package.sh'
+[18.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/package.bash'
+[18.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tb3_teleop/share/tb3_teleop/package.zsh'
+[18.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papasav/robot_ws/install/tb3_teleop/share/colcon-core/packages/tb3_teleop)
+[18.629s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tf_listener' for CMake module files
+[18.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/papasav/robot_ws/src/tf_listener' returned '0': PYTHONPATH=/home/papasav/robot_ws/build/tf_listener/prefix_override:/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_listener build --build-base /home/papasav/robot_ws/build/tf_listener/build install --record /home/papasav/robot_ws/build/tf_listener/install.log --single-version-externally-managed install_data
+[18.631s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tf_listener' for CMake config files
+[18.633s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tf_listener/lib'
+[18.634s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tf_listener/bin'
+[18.634s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tf_listener/lib/pkgconfig/tf_listener.pc'
+[18.634s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages'
+[18.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf_listener', 'pythonpath')
+[18.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/hook/pythonpath.ps1'
+[18.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/hook/pythonpath.dsv'
+[18.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/hook/pythonpath.sh'
+[18.640s] Level 1:colcon.colcon_core.environment:checking '/home/papasav/robot_ws/install/tf_listener/bin'
+[18.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf_listener)
+[18.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/package.ps1'
+[18.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/package.dsv'
+[18.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/package.sh'
+[18.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/package.bash'
+[18.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/papasav/robot_ws/install/tf_listener/share/tf_listener/package.zsh'
+[18.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/papasav/robot_ws/install/tf_listener/share/colcon-core/packages/tf_listener)
+[18.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.651s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.672s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.672s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.673s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.746s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papasav/robot_ws/install/local_setup.ps1'
+[18.750s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papasav/robot_ws/install/_local_setup_util_ps1.py'
+[18.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papasav/robot_ws/install/setup.ps1'
+[18.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papasav/robot_ws/install/local_setup.sh'
+[18.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/papasav/robot_ws/install/_local_setup_util_sh.py'
+[18.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papasav/robot_ws/install/setup.sh'
+[18.774s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papasav/robot_ws/install/local_setup.bash'
+[18.776s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papasav/robot_ws/install/setup.bash'
+[18.779s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/papasav/robot_ws/install/local_setup.zsh'
+[18.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/papasav/robot_ws/install/setup.zsh'

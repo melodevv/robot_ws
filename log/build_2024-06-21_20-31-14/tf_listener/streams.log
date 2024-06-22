@@ -1,0 +1,21 @@
+[2.923s] Invoking command in '/home/papasav/robot_ws/src/tf_listener': PYTHONPATH=/home/papasav/robot_ws/build/tf_listener/prefix_override:/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_listener build --build-base /home/papasav/robot_ws/build/tf_listener/build install --record /home/papasav/robot_ws/build/tf_listener/install.log --single-version-externally-managed install_data
+[3.690s] running egg_info
+[3.693s] writing ../../build/tf_listener/tf_listener.egg-info/PKG-INFO
+[3.695s] writing dependency_links to ../../build/tf_listener/tf_listener.egg-info/dependency_links.txt
+[3.696s] writing entry points to ../../build/tf_listener/tf_listener.egg-info/entry_points.txt
+[3.697s] writing requirements to ../../build/tf_listener/tf_listener.egg-info/requires.txt
+[3.698s] writing top-level names to ../../build/tf_listener/tf_listener.egg-info/top_level.txt
+[3.705s] reading manifest file '../../build/tf_listener/tf_listener.egg-info/SOURCES.txt'
+[3.710s] writing manifest file '../../build/tf_listener/tf_listener.egg-info/SOURCES.txt'
+[3.711s] running build
+[3.711s] running build_py
+[3.713s] running install
+[3.715s] running install_lib
+[3.722s] running install_data
+[3.723s] running install_egg_info
+[3.730s] removing '/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener-0.0.0-py3.10.egg-info' (and everything under it)
+[3.732s] Copying ../../build/tf_listener/tf_listener.egg-info to /home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages/tf_listener-0.0.0-py3.10.egg-info
+[3.756s] running install_scripts
+[3.829s] Installing tf_listener script to /home/papasav/robot_ws/install/tf_listener/lib/tf_listener
+[3.831s] writing list of installed files to '/home/papasav/robot_ws/build/tf_listener/install.log'
+[3.930s] Invoked command in '/home/papasav/robot_ws/src/tf_listener' returned '0': PYTHONPATH=/home/papasav/robot_ws/build/tf_listener/prefix_override:/home/papasav/robot_ws/install/tf_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf_listener build --build-base /home/papasav/robot_ws/build/tf_listener/build install --record /home/papasav/robot_ws/build/tf_listener/install.log --single-version-externally-managed install_data

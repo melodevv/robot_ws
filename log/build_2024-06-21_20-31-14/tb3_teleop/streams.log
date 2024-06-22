@@ -1,0 +1,21 @@
+[2.960s] Invoking command in '/home/papasav/robot_ws/src/tb3_teleop': PYTHONPATH=/home/papasav/robot_ws/build/tb3_teleop/prefix_override:/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_teleop build --build-base /home/papasav/robot_ws/build/tb3_teleop/build install --record /home/papasav/robot_ws/build/tb3_teleop/install.log --single-version-externally-managed install_data
+[3.769s] running egg_info
+[3.773s] writing ../../build/tb3_teleop/tb3_teleop.egg-info/PKG-INFO
+[3.774s] writing dependency_links to ../../build/tb3_teleop/tb3_teleop.egg-info/dependency_links.txt
+[3.774s] writing entry points to ../../build/tb3_teleop/tb3_teleop.egg-info/entry_points.txt
+[3.775s] writing requirements to ../../build/tb3_teleop/tb3_teleop.egg-info/requires.txt
+[3.776s] writing top-level names to ../../build/tb3_teleop/tb3_teleop.egg-info/top_level.txt
+[3.783s] reading manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'
+[3.786s] writing manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'
+[3.786s] running build
+[3.787s] running build_py
+[3.788s] running install
+[3.790s] running install_lib
+[3.794s] running install_data
+[3.795s] running install_egg_info
+[3.802s] removing '/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[3.803s] Copying ../../build/tb3_teleop/tb3_teleop.egg-info to /home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages/tb3_teleop-0.0.0-py3.10.egg-info
+[3.805s] running install_scripts
+[3.876s] Installing teleop script to /home/papasav/robot_ws/install/tb3_teleop/lib/tb3_teleop
+[3.878s] writing list of installed files to '/home/papasav/robot_ws/build/tb3_teleop/install.log'
+[3.977s] Invoked command in '/home/papasav/robot_ws/src/tb3_teleop' returned '0': PYTHONPATH=/home/papasav/robot_ws/build/tb3_teleop/prefix_override:/home/papasav/robot_ws/install/tb3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb3_teleop build --build-base /home/papasav/robot_ws/build/tb3_teleop/build install --record /home/papasav/robot_ws/build/tb3_teleop/install.log --single-version-externally-managed install_data
